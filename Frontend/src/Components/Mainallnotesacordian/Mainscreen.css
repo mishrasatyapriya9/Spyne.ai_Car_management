@@ -1,0 +1,25 @@
+.mainback{
+    padding: 2px;
+    display: flex;
+}
+.page{
+    width: 100%;
+}
+.heading{
+    font-size: 60px;
+    padding: 5px 10px;
+}
+
+@media (max-width:768px) {
+    .heading{
+                font-size: 35px !important;
+display: flex;
+justify-content: center;
+    } 
+    h1 {
+        font-size: 35px !important;
+    }
+    h2 { 
+        font-size: 25px;
+    }
+}

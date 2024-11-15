@@ -1,0 +1,16 @@
+cannot send cookies from the login page by which when needed in the createnote.jsx to send the use  = req.user?._id that can't be extracted from the middleare Authmiddleware.js by which it can't send the user deatils to the createnote.jsx and in the 
+ const Note = await new Notemodel({
+      title,
+      content,
+      category,
+      user: req.user._id, // Associate note with the authenticated user
+    }).save();
+
+    this is {user: req.user._id} not fullfiled so the creatnote cant be done ,and in getall notes also as token is not get from cookie as cookie doesnot save any cokkie so we can't get all notes also
+//IF THAT SAME REQUEST WE DO IN THE POSTMAN WITH HEADER WITH ACCESSTOKEN THEN IT WORKS BECAUSE IT PASS THE ACCESSTOKEN BEFORE CREATENOTE
+
+
+
+
+    GET /api/notes/getallnote - - ms - - show in the terminal when more then any get or post or any button is clicked in the frontend
+    like crete note page button

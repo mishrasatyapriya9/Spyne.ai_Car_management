@@ -1,0 +1,15 @@
+.icon{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+.background {
+  background: linear-gradient(90deg, #ff006a, #da61ff);
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Adjust as needed */
+  /* Additional styles for sticky navbar */
+}

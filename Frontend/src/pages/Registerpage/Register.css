@@ -1,0 +1,13 @@
+.registerform {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  top: 5px;
+  left: 10%;
+  border-radius: 10% !important;
+  /* Smooth transition from a greyish to a less greyish color */
+  /* background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0)); */
+  /* Apply the glassmorphism effect */
+  /* backdrop-filter: blur(4px); */
+  /* Other styling (add borders, shadows, etc.) as desired */
+}
