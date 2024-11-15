@@ -42,7 +42,7 @@ const Registerform = () => {
         };
         setLoading(true);
         const res = await axios.post(
-          `http://localhost:8800/api/users/Register`,
+          `${import.meta.env.VITE_BACKENDDOMAIN}/users/Register`,
           {
             name,
             email,
@@ -72,7 +72,7 @@ const Registerform = () => {
   // const TargetSignin = () => {
   //   navigate("/Signin");
   // };
-  
+
   const postDetails = async (pics) => {
     if (!pics) {
       return setPicMessage("Please select the Image");
