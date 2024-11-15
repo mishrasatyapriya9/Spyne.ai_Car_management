@@ -21,6 +21,7 @@ dotenv.config();
 const allowedOrigins = [
   "http://localhost:5173",
   "https://spyne-ai-car-management.vercel.app/",
+  "http://spyne-ai-car-management.vercel.app/",
 ];
 app.use(
   cors({
@@ -37,6 +38,7 @@ app.use(
       }
     },
     credentials: true, // If you are using cookies or sessions
+    methods: "GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS", // Allow these methods
   })
 );
 
