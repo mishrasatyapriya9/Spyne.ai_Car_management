@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
 import { Link } from "react-router-dom";
@@ -22,8 +22,7 @@ const Signinform = () => {
     try {
       if (!email || !password) {
         alert("Enter email and password!!");
-      }
-      else {
+      } else {
         const config = {
           headers: {
             "Content-type": "application/json",
@@ -32,7 +31,7 @@ const Signinform = () => {
 
         setLoading(true);
         const res = await axios.post(
-          `${import.meta.env.VITE_BACKENDDOMAIN}/users/Login`,
+          `${import.meta.env.VITE_BACKENDDOMAIN}users/Login`,
           {
             email,
             password,
@@ -139,7 +138,9 @@ const Signinform = () => {
                     style={{ backgroundColor: "#3b5998" }}
                     to="/register"
                     role="button"
-                  >Register</Link>
+                  >
+                    Register
+                  </Link>
                   <a
                     className="btn btn-primary btn-lg btn-block"
                     style={{ backgroundColor: "#3b5998" }}
