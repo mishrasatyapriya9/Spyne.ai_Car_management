@@ -20,8 +20,8 @@ dotenv.config();
 // );
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://spyne-ai-car-management.vercel.app/",
-  "http://spyne-ai-car-management.vercel.app/",
+  "https://spyne-ai-car-management.vercel.app",
+  "http://spyne-ai-car-management.vercel.app",
 ];
 app.use(
   cors({
