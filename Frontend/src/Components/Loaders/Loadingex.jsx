@@ -4,7 +4,7 @@ import Spinner from "react-bootstrap/Spinner";
 function Loadingex() {
   return (
     <>
-      <Button variant="primary" disabled>
+      {/* <Button variant="primary" disabled>
         <Spinner
           as="span"
           animation="border"
@@ -13,8 +13,8 @@ function Loadingex() {
           aria-hidden="true"
         />
         <span className="visually-hidden">Loading...</span>
-      </Button>{" "}
-      <Button variant="primary" disabled>
+      </Button>{" "} */}
+      <Button variant="primary" disabled style={{marginLeft:"340px",marginTop:"10px"}}>
         <Spinner
           as="span"
           animation="grow"

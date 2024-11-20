@@ -44,7 +44,7 @@ const Signinform = () => {
         localStorage.setItem("userinfo", JSON.stringify(res));
         //`${process.env.REACT_APP_API}/api/v1/auth/Register`,
         if (res.data.success) {
-          toast("Login successfull");
+          // toast("Login successfull");
           toast.success(res.data.message);
           navigate("/");
         } else {
