@@ -1,13 +1,13 @@
 import Layout from "../../Components/Layout/Layout";
 import "./Register.css";
 import Backgroundformts from "../../Components/background/ParticlesBackground";
-import Registerform from "./Registerform";
+import Registerform from "./Registerform.jsx";
 const Register = () => {
   return (
     <div>
       <Layout>
         <div className=" inset-0 z-0" style={{ position: "relative" }}>
-          <Backgroundformts />
+          {/* <Backgroundformts /> */}
           <Registerform />
         </div>
       </Layout>

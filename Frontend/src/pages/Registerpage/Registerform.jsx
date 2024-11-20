@@ -69,9 +69,9 @@ const Registerform = () => {
     }
   };
 
-  // const TargetSignin = () => {
-  //   navigate("/Signin");
-  // };
+  const TargetSignin = () => {
+    navigate("/Signin");
+  };
 
   const postDetails = async (pics) => {
     if (!pics) {
