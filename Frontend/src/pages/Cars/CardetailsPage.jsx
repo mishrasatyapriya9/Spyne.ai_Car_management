@@ -37,7 +37,7 @@ const CarDetail = () => {
   const handleDeleteClick = async () => {
     try {
       const { data } = await axios.delete(
-        `${import.meta.env.VITE_BACKENDDOMAIN}cars/Deletecar/${id}`
+        `${import.meta.env.VITE_BACKENDDOMAIN}/cars/Deletecar/${id}`
       );
       toast.success(data.message);
       navigate("/Mycars"); // Navigate to car listing after deletion
